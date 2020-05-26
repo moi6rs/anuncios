@@ -23,11 +23,11 @@
   //align-content: center;
 }
 .elemento {
-  flex-grow: 1;
+  flex-shrink: 1;
   color: #fff;
   margin: 5px;
 
-  flex-basis:50px;
+  flex-basis:350px;
 
   height: 50px;
   background: #E67E22;
@@ -35,5 +35,5 @@
 }
 
 .elemento2 {
-  flex-grow: 20;
+  flex-shrink: 2;
 }
