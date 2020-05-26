@@ -1,0 +1,37 @@
+.body {
+  background: #e9e9e9;
+}
+.contenedor {
+  width: 700px;
+  height: 300px;
+  background: #fff;
+  padding: 10px;
+  border: 10px solid #2C3E50;
+  margin: 20px;
+
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:flex;
+
+  flex-wrap:nowrap;
+  flex-direction: row;
+  //flex-flow: row wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  //align-content: center;
+}
+.elemento {
+  flex: 1;
+  flex-basis: 50px;
+  color: #fff;
+  margin: 5px;
+  height: 50px;
+  background: #E67E22;
+  text-align:  center;
+}
+
+.elemento3 {
+  align-self: start;;
+}
