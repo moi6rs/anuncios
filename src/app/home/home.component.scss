@@ -8,11 +8,20 @@
   padding: 10px;
   border: 10px solid #2C3E50;
   margin: 20px;
+
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display:flex;
 
+  flex-wrap:nowrap;
   flex-direction: row;
-  flex-wrap:wrap;
-  flex-flow: row wrap;
+  //flex-flow: row wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  /*Solo para varia lineas*/
+  //align-content: center;
 }
 .elemento {
   color: #fff;
